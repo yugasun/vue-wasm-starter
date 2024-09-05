@@ -32,6 +32,6 @@ RUN pnpm build
 
 FROM nginx:1-alpine
 
-COPY ./deploy/default.conf /etc/nginx/conf.d/default.conf
+COPY ./nginx.conf /etc/nginx/conf.d/default.conf
 COPY --from=builder /app/dist /app
 EXPOSE 80
