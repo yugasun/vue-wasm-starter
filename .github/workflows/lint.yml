@@ -28,8 +28,8 @@ jobs:
       - name: Install wasm-pack
         run: curl https://rustwasm.github.io/wasm-pack/installer/init.sh -sSf | sh
 
-      - name: Build crates
-        run: pnpm build:crates
+      - name: Build
+        run: pnpm build
 
       - name: TypeCheck
         run: pnpm type:check

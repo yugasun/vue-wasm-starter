@@ -82,20 +82,6 @@ pnpm dev
 pnpm build
 ```
 
-## Customize
-
-If you want to use Ant Design Vue, just checkout the branch `antd`.
-
-```bash
-git clone --branch antd https://github.com/yugasun/vue-ts-starter
-```
-
-If you don't need any UI components, just clone or checkout the branch `simple`.
-
-```bash
-git clone --branch simple https://github.com/yugasun/vue-ts-starter
-```
-
 ## Recommended IDE Setup
 
 - [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
