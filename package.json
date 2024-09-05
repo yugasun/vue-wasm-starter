@@ -23,12 +23,11 @@
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "postinstall": "npx msw init public --save",
-    "prepare": "husky",
+    "prepare": "husky init",
     "test": "pnpm run test:unit",
     "test:unit": "vitest run",
     "test:unit:update": "vitest run --update",
-    "type:check": "vue-tsc --noEmit --skipLibCheck",
-    "prepare": "husky"
+    "type:check": "vue-tsc --noEmit --skipLibCheck"
   },
   "dependencies": {
     "@element-plus/icons-vue": "^2.3.1",
