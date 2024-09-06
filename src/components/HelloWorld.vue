@@ -32,8 +32,7 @@ function complexCompute() {
       Result: {{ result }}
     </div>
   </section>
-  <h1 class="text-lg text-dark dark:text-light mt-2" v-html="msg">
-  </h1>
+  <h1 class="text-lg text-dark dark:text-light mt-2" v-html="msg" />
   <p v-if="userStore.isLogin" class="text-dark dark:text-light">
     {{
       t('common.welcome', {
